@@ -24,7 +24,7 @@ data class Curso(val nomeCurso: String, val codDeCurso: Int,  val qtdMaximaDeAlu
             println("O aluno ${umAluno.nome} foi adicionado ao curso $nomeCurso")
         return true
     } else {
-            println("Impossível adicionar aluno, pois não existem vagas disponiveis no curso.")
+            println("Impossível adicionar aluno ${umAluno.nome} ao curso $nomeCurso, pois não há vagas disponiveis.")
         return false
         }
     }
